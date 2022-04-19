@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container {
+    height: 480px;
+    width: 480px;
+    background-color: black;
+
+    position: fixed;
+    top: calc(50vh - 240px);
+    left: calc(50vw - 240px);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.location {
+    /* border-style: solid; */
+    background-color: white;
+    font-size: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
