@@ -4,6 +4,21 @@ html, body {
     width: 100vw;
 }
 
+#winMessage {
+    height: 60px;
+    width: 480px;
+    font-size: 36px;
+
+    position: fixed;
+    top: calc(20vh);
+    left: calc(50vw - 240px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 #container {
     height: 480px;
     width: 480px;

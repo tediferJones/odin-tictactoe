@@ -9,7 +9,24 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="winMessage"></div>
     <div id="container"></div>
+    <div id="formContainer">
+    <form>
+        <label for="player1Name">Player1 Name:</label>
+        <input type="text" id="player1Name" name="player1Name">
+
+        <label for="player2Name">Player2 Name:</label>
+        <input type="text" id="player2Name" name="player2Name">
+
+        <div>Player 1 Marker:
+            <label for="x">X</label>
+            <input type="radio" id="x" name="player1Marker" value="X">
+            <label for="o">O</label>
+            <input type="radio" id="o" name="player1Marker" value="O">
+        </div>
+    </form>
+    </div>
     
 </body>
 </html>
