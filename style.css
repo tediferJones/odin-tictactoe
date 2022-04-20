@@ -14,13 +14,12 @@ html, body {
     left: calc(50vw - 240px);
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
 .location {
-    /* border-style: solid; */
     background-color: white;
     font-size: 48px;
 
