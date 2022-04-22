@@ -12,21 +12,28 @@
     <div id="winMessage"></div>
     <div id="container"></div>
     <div id="formContainer">
-    <form>
-        <label for="player1Name">Player1 Name:</label>
-        <input type="text" id="player1Name" name="player1Name">
+        <form>
+            <div class="inputContainer">
+                <label for="player1Name">Player1 Name:</label>
+                <input type="text" id="player1Name" name="player1Name" value="Tim">
+            </div>
 
-        <label for="player2Name">Player2 Name:</label>
-        <input type="text" id="player2Name" name="player2Name">
+            <div class="inputContainer">
+                <label for="player2Name">Player2 Name:</label>
+                <input type="text" id="player2Name" name="player2Name" value="Tom">
+            </div>
 
-        <div>Player 1 Marker:
-            <label for="x">X</label>
-            <input type="radio" id="x" name="player1Marker" value="X">
-            <label for="o">O</label>
-            <input type="radio" id="o" name="player1Marker" value="O">
-        </div>
-    </form>
+            <div class="inputContainer">Player 1 Marker:
+                
+                <input type="radio" id="x" name="player1Marker" value="X" checked>
+                <label for="x">X</label>
+                
+                <input type="radio" id="o" name="player1Marker" value="O">
+                <label for="o">O</label>
+            </div>
+        </form>
     </div>
+    <div id="currentPlayer"></div>
     
 </body>
 </html>
