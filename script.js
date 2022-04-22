@@ -46,6 +46,9 @@ const PlayGame = (player1, player2) => {
     function placeMarker001(player, location) {
         if (['1','2','3','4','5','6','7','8','9'].includes(location)) {
             player.spotsTaken.push(currentBoard.board.splice(location - 1, 1, player.marker)[0])
+        } else if (['X','O'].includes(location)) {
+            switchTurns()
+            currentTurn--
         }
     }
 
